@@ -21,6 +21,7 @@ public class qoni extends Application{
         String user = "sa";
         String pass = "!234";
 
+
         return DriverManager.getConnection(url, user, pass);
     }
 
